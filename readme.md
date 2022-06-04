@@ -4,6 +4,8 @@ Play sample [here](https://excaliburjs.com/sample-grid)
 
 ![sample-animation](./assets/sample.gif)
 
+Press WASD or the arrow keys to move!
+
 ## Running locally
 
 * Using [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/)
