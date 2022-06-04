@@ -1,0 +1,19 @@
+{
+  "name": "sample-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html --dist-dir ./dist --public-url /"
+  },
+  "author": "Erik Onarheim",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "2.6.0",
+    "typescript": "4.7.3"
+  },
+  "dependencies": {
+    "excalibur": "0.26.0"
+  }
+}
