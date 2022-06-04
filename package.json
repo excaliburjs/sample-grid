@@ -1,8 +1,7 @@
 {
   "name": "sample-grid",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Example excalibur grid based movement",
   "scripts": {
     "start": "parcel serve index.html",
     "build": "parcel build index.html --dist-dir ./dist --public-url /"
