@@ -97,7 +97,9 @@ export class Beetle extends ex.Actor {
                 this.moving = false;
             });
         } else {
-            Resources.ClankSound.play();
+            if (!Resources.ClankSound.isPlaying() && !this.moving) {
+                Resources.ClankSound.play();
+            }
         }
     }
 }
