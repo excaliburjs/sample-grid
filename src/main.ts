@@ -6,7 +6,8 @@ const engine = new ex.Engine({
     width: 600,
     height: 400,
     displayMode: ex.DisplayMode.FitScreenAndFill,
-    antialiasing: false
+    pixelArt: true,
+    pixelRatio: 2
 });
 
 const level = new Level();
